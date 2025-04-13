@@ -1,0 +1,12 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "description": "Full-stack web application with React frontend and Node.js backend",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
